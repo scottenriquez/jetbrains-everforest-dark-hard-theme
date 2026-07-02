@@ -1,0 +1,166 @@
+{
+  "name": "Everforest Dark Hard",
+  "dark": true,
+  "author": "Scottie Enriquez",
+  "editorScheme": "/theme/EverforestDarkHard.xml",
+  "colors": {
+    "crust": "#161B1E",
+    "background": "#1E2326",
+    "editorBg": "#272E33",
+    "bg1": "#2E383C",
+    "bg2": "#374145",
+    "bg3": "#414B50",
+    "bg4": "#495156",
+    "foreground": "#D3C6AA",
+    "red": "#E67E80",
+    "orange": "#E69875",
+    "yellow": "#DBBC7F",
+    "green": "#A7C080",
+    "aqua": "#83C092",
+    "blue": "#7FBBB3",
+    "purple": "#D699B6",
+    "grey0": "#7A8478",
+    "grey1": "#859289",
+    "grey2": "#9DA9A0",
+    "selection": "#4C3743",
+    "cursor": "#E69875",
+    "link": "#7FBBB3"
+  },
+  "ui": {
+    "*": {
+      "background": "background",
+      "foreground": "foreground",
+      "selectionBackground": "bg3",
+      "selectionForeground": "foreground",
+      "selectionInactiveBackground": "bg2",
+      "borderColor": "crust",
+      "separatorColor": "crust",
+      "disabledForeground": "grey0",
+      "infoForeground": "grey1"
+    },
+    "Panel": {
+      "background": "background",
+      "foreground": "foreground"
+    },
+    "Editor": {
+      "background": "editorBg",
+      "shortcutForeground": "cursor"
+    },
+    "EditorTabs": {
+      "background": "crust",
+      "underlinedTabBackground": "editorBg",
+      "underlinedTabForeground": "foreground",
+      "inactiveColoredFileBackground": "crust",
+      "underlineColor": "green",
+      "inactiveUnderlineColor": "grey0",
+      "hoverBackground": "bg1"
+    },
+    "DefaultTabs": {
+      "background": "crust",
+      "underlinedTabBackground": "editorBg",
+      "underlineColor": "green",
+      "inactiveUnderlineColor": "grey0",
+      "hoverBackground": "bg1"
+    },
+    "Button": {
+      "startBackground": "bg2",
+      "endBackground": "bg2",
+      "foreground": "foreground",
+      "default": {
+        "startBackground": "green",
+        "endBackground": "green",
+        "foreground": "background",
+        "focusColor": "aqua"
+      }
+    },
+    "Component": {
+      "focusColor": "green",
+      "focusedBorderColor": "green"
+    },
+    "Link": {
+      "activeForeground": "blue",
+      "hoverForeground": "aqua",
+      "visitedForeground": "purple",
+      "pressedForeground": "green"
+    },
+    "ToolWindow": {
+      "Header": {
+        "background": "background",
+        "inactiveBackground": "background",
+        "borderColor": "crust"
+      },
+      "HeaderTab": {
+        "selectedBackground": "bg2",
+        "selectedInactiveBackground": "bg1",
+        "underlinedTabBackground": "bg1",
+        "underlineColor": "aqua",
+        "inactiveUnderlineColor": "grey0"
+      }
+    },
+    "TabbedPane": {
+      "underlineColor": "aqua",
+      "contentAreaColor": "crust",
+      "focusColor": "bg2"
+    },
+    "List": {
+      "background": "background",
+      "selectionBackground": "bg3",
+      "selectionForeground": "foreground",
+      "selectionInactiveBackground": "bg2"
+    },
+    "Tree": {
+      "background": "background",
+      "selectionBackground": "bg3",
+      "selectionForeground": "foreground",
+      "selectionInactiveBackground": "bg2"
+    },
+    "Table": {
+      "background": "background",
+      "selectionBackground": "bg3",
+      "selectionForeground": "foreground"
+    },
+    "MenuBar": {
+      "background": "background",
+      "borderColor": "crust",
+      "selectionBackground": "bg3"
+    },
+    "Menu": {
+      "background": "background",
+      "selectionBackground": "bg3"
+    },
+    "PopupMenu": {
+      "background": "background"
+    },
+    "TextField": {
+      "background": "editorBg",
+      "foreground": "foreground"
+    },
+    "TextArea": {
+      "background": "editorBg",
+      "foreground": "foreground"
+    },
+    "ComboBox": {
+      "background": "editorBg",
+      "foreground": "foreground"
+    },
+    "ScrollBar": {
+      "thumbColor": "bg3",
+      "hoverThumbColor": "green"
+    },
+    "ProgressBar": {
+      "progressColor": "green",
+      "indeterminateStartColor": "green",
+      "indeterminateEndColor": "aqua"
+    },
+    "CheckBox": {
+      "select": "green"
+    },
+    "NavBar": {
+      "background": "background"
+    },
+    "StatusBar": {
+      "background": "crust",
+      "borderColor": "crust"
+    }
+  }
+}

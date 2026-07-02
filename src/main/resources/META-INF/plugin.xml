@@ -1,0 +1,18 @@
+<idea-plugin>
+    <id>xxx.scottie.everforestdarkhard</id>
+    <name>Everforest Dark Hard Theme</name>
+    <vendor url="https://scottie.la">Scottie Enriquez</vendor>
+
+    <description><![CDATA[
+        A dark, low-contrast green editor theme for JetBrains IDEs, ported from the
+        <a href="https://github.com/sainnhe/everforest">Everforest</a> color scheme
+        (Dark, Hard background variant).
+    ]]></description>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <themeProvider id="xxx.scottie.everforestdarkhard.theme"
+                       path="/theme/EverforestDarkHard.theme.json"/>
+    </extensions>
+</idea-plugin>
