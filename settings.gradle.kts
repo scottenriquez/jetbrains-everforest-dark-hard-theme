@@ -1,1 +1,1 @@
-rootProject.name = "everforest-dark-hard-theme"
+rootProject.name = "everforest-darker"

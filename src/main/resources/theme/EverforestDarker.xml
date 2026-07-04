@@ -1,14 +1,14 @@
-<scheme name="Everforest Dark Hard" version="142" parent_scheme="Darcula">
+<scheme name="Everforest Darker" version="142" parent_scheme="Darcula">
   <metaInfo>
     <property name="created">2026-07-02</property>
     <property name="ide">idea</property>
-    <property name="originalScheme">Everforest Dark Hard</property>
+    <property name="originalScheme">Everforest Darker</property>
   </metaInfo>
 
   <colors>
     <option name="CARET_COLOR" value="E69875" />
     <option name="CARET_ROW_COLOR" value="2E383C" />
-    <option name="GUTTER_BACKGROUND" value="272E33" />
+    <option name="GUTTER_BACKGROUND" value="181D20" />
     <option name="INDENT_GUIDE" value="374145" />
     <option name="SELECTED_INDENT_GUIDE" value="4F5B58" />
     <option name="LINE_NUMBERS_COLOR" value="7A8478" />
@@ -39,7 +39,7 @@
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="D3C6AA" />
-        <option name="BACKGROUND" value="272E33" />
+        <option name="BACKGROUND" value="181D20" />
       </value>
     </option>
 
@@ -62,7 +62,7 @@
     <option name="DEFAULT_INVALID_STRING_ESCAPE">
       <value>
         <option name="FOREGROUND" value="F85552" />
-        <option name="BACKGROUND" value="272E33" />
+        <option name="BACKGROUND" value="181D20" />
       </value>
     </option>
     <option name="DEFAULT_NUMBER">
@@ -226,7 +226,7 @@
     <option name="BAD_CHARACTER">
       <value>
         <option name="FOREGROUND" value="F85552" />
-        <option name="BACKGROUND" value="272E33" />
+        <option name="BACKGROUND" value="181D20" />
       </value>
     </option>
     <option name="TODO_DEFAULT_ATTRIBUTES">

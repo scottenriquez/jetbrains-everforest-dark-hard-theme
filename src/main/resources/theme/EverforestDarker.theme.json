@@ -1,12 +1,15 @@
 {
-  "name": "Everforest Dark Hard",
+  "name": "Everforest Darker (Islands)",
   "dark": true,
   "author": "Scottie Enriquez",
-  "editorScheme": "/theme/EverforestDarkHard.xml",
+  "parentTheme": "Islands Dark",
+  "editorScheme": "/theme/EverforestDarker.xml",
   "colors": {
     "crust": "#161B1E",
     "background": "#1E2326",
     "editorBg": "#272E33",
+    "editorBgDark": "#181D20",
+    "panelBg": "#1B2023",
     "bg1": "#2E383C",
     "bg2": "#374145",
     "bg3": "#414B50",
@@ -38,26 +41,37 @@
       "disabledForeground": "grey0",
       "infoForeground": "grey1"
     },
+    "Islands": 1,
+    "Island": {
+      "borderColor": "crust"
+    },
+    "MainWindow": {
+      "background": "crust"
+    },
+    "MainToolbar": {
+      "background": "crust",
+      "borderColor": "crust"
+    },
     "Panel": {
-      "background": "background",
+      "background": "panelBg",
       "foreground": "foreground"
     },
     "Editor": {
-      "background": "editorBg",
+      "background": "editorBgDark",
       "shortcutForeground": "cursor"
     },
     "EditorTabs": {
-      "background": "crust",
-      "underlinedTabBackground": "editorBg",
+      "background": "editorBgDark",
+      "underlinedTabBackground": "editorBgDark",
       "underlinedTabForeground": "foreground",
-      "inactiveColoredFileBackground": "crust",
+      "inactiveColoredFileBackground": "editorBgDark",
       "underlineColor": "green",
       "inactiveUnderlineColor": "grey0",
       "hoverBackground": "bg1"
     },
     "DefaultTabs": {
-      "background": "crust",
-      "underlinedTabBackground": "editorBg",
+      "background": "editorBgDark",
+      "underlinedTabBackground": "editorBgDark",
       "underlineColor": "green",
       "inactiveUnderlineColor": "grey0",
       "hoverBackground": "bg1"
@@ -84,9 +98,10 @@
       "pressedForeground": "green"
     },
     "ToolWindow": {
+      "background": "panelBg",
       "Header": {
-        "background": "background",
-        "inactiveBackground": "background",
+        "background": "panelBg",
+        "inactiveBackground": "panelBg",
         "borderColor": "crust"
       },
       "HeaderTab": {
@@ -95,6 +110,10 @@
         "underlinedTabBackground": "bg1",
         "underlineColor": "aqua",
         "inactiveUnderlineColor": "grey0"
+      },
+      "Stripe": {
+        "background": "crust",
+        "borderColor": "crust"
       }
     },
     "TabbedPane": {
@@ -103,33 +122,35 @@
       "focusColor": "bg2"
     },
     "List": {
-      "background": "background",
+      "background": "panelBg",
       "selectionBackground": "bg3",
       "selectionForeground": "foreground",
-      "selectionInactiveBackground": "bg2"
+      "selectionInactiveBackground": "bg2",
+      "rowHeight": 24
     },
     "Tree": {
-      "background": "background",
+      "background": "panelBg",
       "selectionBackground": "bg3",
       "selectionForeground": "foreground",
-      "selectionInactiveBackground": "bg2"
+      "selectionInactiveBackground": "bg2",
+      "rowHeight": 24
     },
     "Table": {
-      "background": "background",
+      "background": "panelBg",
       "selectionBackground": "bg3",
       "selectionForeground": "foreground"
     },
     "MenuBar": {
-      "background": "background",
+      "background": "crust",
       "borderColor": "crust",
       "selectionBackground": "bg3"
     },
     "Menu": {
-      "background": "background",
+      "background": "panelBg",
       "selectionBackground": "bg3"
     },
     "PopupMenu": {
-      "background": "background"
+      "background": "panelBg"
     },
     "TextField": {
       "background": "editorBg",
@@ -156,7 +177,7 @@
       "select": "green"
     },
     "NavBar": {
-      "background": "background"
+      "background": "panelBg"
     },
     "StatusBar": {
       "background": "crust",

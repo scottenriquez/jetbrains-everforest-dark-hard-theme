@@ -1,12 +1,12 @@
-# Everforest Dark Hard Theme
+# Everforest Darker
 
-Ported from the
+A Islands-based darker port of the
 [Everforest](https://github.com/sainnhe/everforest) color scheme.
 
 ## Requirements
 
-- JetBrains IDE 2026.1 or newer (build 261+)
-- JDK 26 (used to build the plugin)
+- JetBrains IDE (261+)
+- JDK 26 to build the plugin
 
 
 ## Building
@@ -15,9 +15,9 @@ Ported from the
 ./gradlew buildPlugin
 ```
 
-The installable plugin archive is written to `build/distributions/`.
+The installable plugin archive is written to `build/distributions/`. To install, navigate to `Plugins`, click the ellipses, and choose `Install Plugin from Disk`.
 
-## Running in a sandbox IDE
+## Running via the Sandbox IDE
 
 ```sh
 ./gradlew runIde
@@ -27,7 +27,10 @@ The installable plugin archive is written to `build/distributions/`.
 
 | Role | Hex |
 | --- | --- |
-| Background (hard) | `#1E2326` |
+| Editor background | `#181D20` |
+| Tool windows, panels | `#1B2023` |
+| UI background (menus, dialogs) | `#1E2326` |
+| Tabs, borders, status bar | `#161B1E` |
 | Foreground | `#D3C6AA` |
 | Red | `#E67E80` |
 | Orange | `#E69875` |
