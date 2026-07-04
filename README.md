@@ -1,6 +1,6 @@
 # Everforest Darker
 
-A Islands-based darker port of the
+Islands-based darker port of the
 [Everforest](https://github.com/sainnhe/everforest) color scheme.
 
 ## Requirements
